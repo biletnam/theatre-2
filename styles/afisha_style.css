@@ -1,0 +1,52 @@
+.yellow_zag_table   {
+    color: #ff6600; 
+    font: bold small-caps 110% Cambria;
+}
+
+.yellow_zag_table::before   {
+    content: " ~ ";
+    font-size: 150%;
+    font-family: SERIF;
+}
+
+.yellow_zag_table::after   {
+    content: " ~ ";
+    font-size: 150%;
+    font-family: SERIF;
+}
+
+.outer_table    {
+    position: relative;
+    margin: 0 auto;
+    max-width: 70%; 
+    border-bottom: 1px solid #580904;   
+}
+
+.left_table    {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px;
+    border-top: 1px solid #580904;
+    background-color: rgba(253, 207, 198, 0.16);
+}
+
+.center_table    {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border-top: 1px solid #580904;
+    background-color: rgba(201, 231, 253, 0.13);
+}
+
+.right_table    {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border-top: 1px solid #580904;
+    background-color: rgba(253, 206, 172, 0.15);
+}

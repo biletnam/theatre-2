@@ -1,0 +1,281 @@
+/*выделение кастомным цветом*/
+::selection {
+    background: #e4a19c; /* Safari */
+}
+
+::-moz-selection {
+    background: #e4a19c; /* Firefox */
+}
+
+/* титул ссылка */
+.titul_link {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.titul_link:hover    {
+    color: white;
+    text-shadow: 0 0 1.5em whitesmoke;
+    font-size: 110%;
+}
+
+/*отрисовка кастомного списка продаж и броней*/
+.tab_words  {
+    font-size: medium;
+}
+
+.tab_vikup    {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #580904;
+    border-collapse: collapse;
+    color: #580904;
+    table-layout: fixed;
+    font: bold small-caps 100% Cambria;
+    background-color: #ffd5ef;   
+}
+
+.tab_vikup tr {
+    border: 1px solid #580904;
+    padding: 5px;
+}  
+
+.tab_vikup td {
+    border: 1px solid #580904;
+    padding: 5px;
+} 
+
+.tab_bot    {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #580904;
+    border-collapse: collapse;
+    color: #580904;
+    table-layout: fixed;
+    font: bold small-caps 100% Cambria;
+    background-color: white;   
+}
+
+.tab_bot tr {
+    border: 1px solid #580904;
+    padding: 5px;
+}  
+
+.tab_bot td {
+    border: 1px solid #580904;
+    padding: 5px;
+}
+
+.tab_annul    {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #580904;
+    border-collapse: collapse;
+    color: #580904;
+    table-layout: fixed;
+    font: bold small-caps 100% Cambria;
+    background-color: #dacefc;   
+}
+
+.tab_annul tr {
+    border: 1px solid #580904;
+    padding: 5px;
+}  
+
+.tab_annul td {
+    border: 1px solid #580904;
+    padding: 5px;
+}  
+
+.tab_ret    {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #580904;
+    border-collapse: collapse;
+    color: #580904;
+    table-layout: fixed;
+    font: bold small-caps 100% Cambria;
+    background-color: #fdcfc6;   
+}
+
+.tab_ret tr {
+    border: 1px solid #580904;
+    padding: 5px;
+}  
+
+.tab_ret td {
+    border: 1px solid #580904;
+    padding: 5px;
+}
+
+/*вход в админку*/
+.enter_form {
+    position: relative;
+    margin: 0 auto;
+    width: 14em;
+    padding: 2em;
+    background-color: #eae2e3; 
+    border: 1px solid #cc9999;
+}
+
+/* репертуар */
+.rep_form {
+    position: relative;
+    margin: 0 auto;
+    width: 50em;
+    padding: 2em;
+    background-color: rgba(234, 226, 227, 0.21);
+    border-top: 4px double #cc9999;
+    border-bottom: 4px double #cc9999;
+}
+
+.rep_form_in {
+    position: relative;
+    border-spacing: 1em 0.7em;
+    color: #580904;
+}
+
+.rep_form_in td {
+    width: 20em;
+    text-align: left;
+    color: #580904;
+}
+
+/* выбор мест */
+.bil_form {
+    position: relative;
+    margin: 0 auto;
+    width: 40em;
+    padding: 2em;
+    background-color: rgba(234, 226, 227, 0.21);
+    border-top: 4px double #cc9999;
+    border-bottom: 4px double #cc9999;
+}
+
+.bil_form_in {
+    position: relative;
+    border-spacing: 4em 0.7em;
+    color: #580904;
+}
+
+.bil_form_in td {
+    width: 15em;
+    text-align: left;
+    color: #580904;
+}
+
+/* эффекты при наведении */
+/* представление в афише */
+.afisha_pred    {
+     color: #580904;
+     text-decoration: none;
+ }
+
+.afisha_pred:hover    {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.afisha_pred::first-letter    {
+    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 2em; /* Размер шрифта первого символа */
+    color: #ff6600;
+}
+
+/* ссылки в афише */
+.main_afisha    {
+    color: #580904;
+    text-decoration: none;
+}
+
+.main_afisha:hover    {
+    color: #580904;
+    background-color: #ffcfb5;
+}
+
+/* ссылка вход */
+.adm_link   {
+    color: #d3a04c;
+    text-decoration: none;
+}   
+
+.adm_link:hover   {
+    color: #580904;
+    background-color: #d3a04c;
+}
+
+/* главное меню */
+.lmen   {
+	color: white;  
+	text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    -webkit-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+.lmen:hover {
+    color: white;
+    background-color: #d3a04c;
+}
+
+/* кастомизация кнопки */
+.tog    {
+    background-color: white;
+    color: #580904;
+    border: 1px solid #580904;
+	text-decoration: none;
+    cursor: pointer;
+    padding: 5px;    
+}
+
+.tog:hover  {
+    background-color: #580904;
+    color: white;
+    padding: 5px;
+}
+
+/*отрисовка мест */
+.seats  {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #eae2e3; 
+    outline: 1px solid #cc9999;
+}
+
+.pust {
+    border: 0px solid #000; 
+    background-color: #eae2e3; 
+    width: 23px;
+    height: 23px;
+}
+
+.nbt {
+    border: 1px solid #000; 
+    font-size: 11px;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+}
+
+.trprox {
+    height: 2px;
+}
+
+.tdprox {
+    font-size: 2px;
+    height: 2px;
+}
+
+.small_seat_table {
+    font-size: 11px;
+    margin: 0 auto;
+}

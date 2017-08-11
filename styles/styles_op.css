@@ -1,0 +1,126 @@
+BODY 	{
+	margin: 0;
+}
+
+div, p, span, strong, b, em, i, a, li, td {
+    -webkit-text-size-adjust: none;
+}
+
+.podrobn    {
+    position: relative;
+    left: 10%;
+    width: 80%;    
+}
+
+.captcha    {
+    color: #580904;
+    background-color: #d3a04c;
+    text-align: center;
+    border: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.afisha_tab {
+    position: relative;
+    left: 30%;
+    color: #580904;
+    font: bold small-caps 100% Cambria;
+}
+
+#fullopis   {
+    position: relative;
+    left: 30%;
+    width: 40%;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#tab_afisha  {
+    position: relative;
+    left: 30%;
+    color: #580904;
+    font: bold small-caps 100% Cambria;
+}
+
+#outer	{
+	z-index: 4;
+    width: 100%;
+	min-height: 100%;
+	background-color: white;
+	font: bold small-caps 100% Cambria;
+	overflow-x: hidden;
+}
+
+#header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 0.58em;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    background: #580904;
+    border-bottom: 4px solid #580904;
+    border-top: 4px solid #580904;
+    max-width: 100%;
+}
+
+/* титул */
+#titul  {
+    position: fixed;
+    left: 3%;
+    width: 10%;
+    margin-top: -0.3em;
+}
+
+#menu_line  {
+    position: fixed;
+    margin-left: 30%;
+    margin-top: -2.2em;
+    width: 60%;
+}
+
+#top_menu li   {
+    position: relative;
+    float: left;
+    font-size: medium;
+    line-height: 3;
+    list-style: none;
+    margin: 0px auto 10px auto;
+}
+
+#adm    {
+    position: fixed;
+    float: right;
+    right: 3%;
+    margin-top: -0.3em;
+    width: 10%;
+}
+		 
+#c_main {
+	position: relative;
+	max-width: 100%;
+    /*min-height: 50em;*/
+	margin: 2% auto 0 auto;
+    padding: 25px;
+	z-index: 2;
+    width: 100%;
+	background-color: #efeceb;
+	border: 8px;
+	color: #580904;
+	text-align: center;
+}
+
+#footer	{
+    position: relative;
+    width: 100%;
+    height: 1.3em;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: #580904;
+}
